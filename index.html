@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="common.js"></script>
+    <script src="game.js"></script>
+    <script>
+        window.onload = () => {
+            Game.startup();
+        }
+    </script>
+    <title>いるかるかゲーム</title>
+</head>
+<body>
+    <h1>いるかるかゲーム</h1>
+    <canvas id="screen"></canvas>
+    <div class="description">
+        <h2>遊び方</h2>
+        <ol>
+            <li>いるか<img src="./images/ruka01.png">に乗って海を走ろう！</li>
+            <li>画面をクリック、またはタップでジャンプして障害物<img src="./images/avocado01.png"><img src="./images/ax01.png">を避けよう！</li>
+        </ol>
+    </div>
+    <footer>
+        (C) 2024 sct All rights reserved
+    </footer>
+</body>
+</html>
